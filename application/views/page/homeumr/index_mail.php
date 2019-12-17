@@ -1,4 +1,5 @@
-   <div class="data-table-area mg-b-15">
+<!-- Static Table Start -->
+        <div class="data-table-area mg-b-15">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -25,20 +26,31 @@
                                               
 
                                              
-                                              <button class='btn btn-primary btn-sm' formaction="http://mail.smcthai.co.th:8082/pj_mail/M_UMRR/web/index_add.php" >Create</button>  
+                                              <button class='btn btn-primary btn-sm' formaction="http://mail.smcthai.co.th:8082/pj_mail/M_UMR/web/index_add.php" >Create</button>  
+
  
+                                                  
+
+                                               
+
+                                                  
+
+                                           
+
                                            <!------ example ----->
                 <button class='btn btn-warning btn-sm' formaction="./index_edit.php" >Edit</button> 
 
                                            <!------ example ----->
- 
+
+
+
 
                                           <!------ example ----->
                <button class='btn btn-danger btn-sm' formaction="./cancle.php" >Delete</button>
 
                                            <!------ example ----->
                                                
-                                                 <button class='btn btn-success btn-sm' formaction="  http://mail.smcthai.co.th:8082/pj_mail/M_UMRR/web/submit.php  " >Submit</button>
+                                                 <button class='btn btn-success btn-sm' formaction="  http://mail.smcthai.co.th:8082/PJ_MAIL/M_UMR/web/submit.php  " >Submit</button>
 
                                     </div>
                                    <table id="table" data-toggle="table" data-pagination="true" data-search="true"     data-key-events="true"   data-resizable="true" data-cookie="true"
@@ -60,11 +72,8 @@
                                         </thead>
                                         <tbody>
                                         
-       <!--   STATEMENT   QUERY     -->
-    
-    
 
-  <?php /*
+   <?php
 
 
 $STRQTY = "select  *   from [StockPrice].[dbo].[Username]  where [UserN]  ='".$_SESSION["USUSID"]."'  ";
@@ -76,12 +85,12 @@ $User_name = trim($login_result["UserN"]);
 
                                                            
 
- # select * from smctest.CUSTREFID1 a join  smctest.sopdg b on a.CADSTC = b.DGURID where b.DGUSSQ  = 'Z1TEST'  order by CARFNO desc 
+ # select * from smcdta.CUSTREFID1 a join  smcdta.sopdg b on a.CADSTC = b.DGURID where b.DGUSSQ  = 'Z1TEST'  order by CARFNO desc 
 
-  #$querystr_SOPCA = odbc_exec($conn,"select * from smctest.CUSTREFID1 where   CACOCD = '02' and CABRCD = ''    and CAURID =  '".$User_name."' order by CARFNO desc      ");
+  #$querystr_SOPCA = odbc_exec($conn,"select * from smcdta.CUSTREFID1 where   CACOCD = '02' and CABRCD = ''    and CAURID =  '".$User_name."' order by CARFNO desc      ");
 
-   $querystr_SOPCA = odbc_exec($conn,"select * from smctest.CUSTREFID1 a join  smctest.sopdg b on a.CARFNO = b.DGRFNO where b.DGUSSQ  =  '".$User_name."'  order by CARFNO desc     ");
- #$querystr_SOPCA = odbc_exec($conn,"select * from smctest.SOPCA where   CACOCD = '02' and  CADSTC = '".$USID_trim."'   ");
+   $querystr_SOPCA = odbc_exec($conn,"select * from smcdta.CUSTREFID1 a join  smcdta.sopdg b on a.CARFNO = b.DGRFNO where b.DGUSSQ  =  '".$User_name."'  order by CARFNO desc     ");
+ #$querystr_SOPCA = odbc_exec($conn,"select * from smcdta.SOPCA where   CACOCD = '02' and  CADSTC = '".$USID_trim."'   ");
            while ($result_approve = odbc_fetch_array($querystr_SOPCA)) {
 
             $CARFNO  = iconv("windows-874", "utf-8", $result_approve["CARFNO"]);
@@ -103,7 +112,7 @@ $User_name = trim($login_result["UserN"]);
             $CAAUAP_T = trim($CAAUAP);
             $CAARSM_T = trim($CAARSM);
 
-     $querystr_sopcf = odbc_exec($conn,"select CFUSRC from smctest.SOPCF where   CFRFNO =  '".$CARFNO."'  "); 
+     $querystr_sopcf = odbc_exec($conn,"select CFUSRC from smcdta.SOPCF where   CFRFNO =  '".$CARFNO."'  "); 
      while ($result_approve_o2 = odbc_fetch_array($querystr_sopcf)) {
 $CFUSRC = iconv("windows-874", "utf-8", $result_approve_o2["CFUSRC"]);
 
@@ -438,14 +447,9 @@ $CFUSRC = iconv("windows-874", "utf-8", $result_approve_o2["CFUSRC"]);
 
     odbc_close($conn);
         ob_end_flush();
-*/
+
      ?>
 
-
-
-
-
-       <!--  end  STATEMENT   QUERY     -->
                                         </tbody>
                                     </table>
                                 </div>
@@ -460,3 +464,4 @@ $CFUSRC = iconv("windows-874", "utf-8", $result_approve_o2["CFUSRC"]);
                 </div>
             </div>
         </div>
+        <!-- Static Table End -->

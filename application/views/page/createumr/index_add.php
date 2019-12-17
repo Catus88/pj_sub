@@ -1,4 +1,4 @@
-    <!-- Single pro tab review Start-->
+  <!-- Single pro tab review Start-->
         <div class="single-pro-review-area mt-t-30 mg-b-15">
             <div class="container-fluid">
                 <div class="row">
@@ -31,11 +31,11 @@
 
                               
                           </div>
-    <?php  /*  $STRQTY = "select  email,Company   from [StockPrice].[dbo].[Username]  where [UserN]  ='".$_SESSION["USUSID"]."'  ";
+   <?php   $STRQTY = "select  email,Company   from [StockPrice].[dbo].[Username]  where [UserN]  ='".$_SESSION["USUSID"]."'  ";
 $login_result = odbc_fetch_array(odbc_exec($con, $STRQTY));
 $email = trim($login_result["email"]);
 $Company = trim($login_result["Company"]);
- $this_date = date("Y/m/d");   */
+ $this_date = date("Y/m/d");
  ?> 
                              
                       </div>
@@ -66,12 +66,12 @@ $Company = trim($login_result["Company"]);
 
      <?php  
 
-/*
+
 $SOPO1_test = odbc_fetch_array( odbc_exec($conn, " select  O1ECNM,O1TCNM,O1CENM,O1CTNM  from  smcdta.sopo1
       where  O1CUSN = '".$Company."'  ") );
 
 $O1ECNM_COM  =   iconv("windows-874", "utf-8", $SOPO1_test["O1ECNM"]);
-*/
+
      ?>
 
                             <div class="col col-md-2"><label for="text-input" class=" form-control-label">Distributor Name   :</label></div>
@@ -89,7 +89,6 @@ $O1ECNM_COM  =   iconv("windows-874", "utf-8", $SOPO1_test["O1ECNM"]);
                          
 
  <?php  
- /*
 
 $O1CUSN_T =  trim($_GET['O1CUSN']) ;
 $SOPO1_test12 = odbc_fetch_array( odbc_exec($conn, " select  *   from  smcdta.sopo1
@@ -150,11 +149,14 @@ $O7ESNM = iconv("windows-874", "utf-8", $SOPOB2["O7ESNM"]);
     $OBAMGR111 = $OASLMN.$O7ESNM;
 
     $OBAMGR11 = $OBAMGR.$O7ESNM1;
-   */  ?>
+     ?>
                            
  
 
-                        
+                           <!--  <div class="col col-md-2"><label for="text-input" class=" form-control-label">SMC A/C No.  :</label></div>
+                            <div class="col-24 col-md-2"><input type="text" readonly="" list="brow"  id="idemployee" name="User_No" placeholder="SMC A/C No."
+                              value="<?php echo $_POST['idemployee3']  ?>"  class="form-control" >
+                            </div>-->
   
                           </div>
 
@@ -185,7 +187,14 @@ $O7ESNM = iconv("windows-874", "utf-8", $SOPOB2["O7ESNM"]);
  
                             </div>
                                
-      
+     
+
+
+                           <!--  <div class="col col-md-2"><label for="text-input" class=" form-control-label">SMC A/C No.  :</label></div>
+                            <div class="col-24 col-md-2"><input type="text" readonly="" list="brow"  id="idemployee" name="User_No" placeholder="SMC A/C No."
+                              value="<?php echo $_POST['idemployee3']  ?>"  class="form-control" >
+                            </div>-->
+  
                           </div>
 
 
@@ -196,7 +205,22 @@ $O7ESNM = iconv("windows-874", "utf-8", $SOPOB2["O7ESNM"]);
                               </div>
                             <!--   ssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
 
-          
+                             
+                                 
+ 
+
+                           
+
+
+
+
+
+
+
+
+                          
+               
+                 
  
 
                           <div class="row form-group">
@@ -214,13 +238,24 @@ $O7ESNM = iconv("windows-874", "utf-8", $SOPOB2["O7ESNM"]);
                                   <div class="col col-md-2"><label for="disabled-input" class=" form-control-label"><font color="red">*Distributor End User Code :</font>  </label></div>
                             <div class="col-24 col-md-2"> <input type="text" id="User_Code_Dist"    name="User_Code_Dist"  onchange="javascript:return check_usercode();"   maxlength="10"   value="" placeholder="Distributor End User Code "    class="form-control"></div>
                              <div class="col col-md-1">
-          
+           <!--        <button id="execute_search1" type="button" class="btn btn-primary btn-sm">
+                          <i class="fa fa-dot-circle-o"></i> Check Dis 
+                           
+                            </button> -->
                                    </div>  
                                        <div class="col col-md-2">
                <a href="./search.php"  class="btn btn-warning btn-sm  " >Search by Username</a>
                                    </div>  
 
+
+<?php  
  
+
+
+/*
+
+<input type="text" id="O1CUSN" maxlength="8"  readonly=""   name="O1CUSN" value="<?php echo $O1CUSN_TA; ?>" placeholder="SMC A/C No."   class="form-control">  */
+?>
 
                             <div class="col col-md-2"><label for="disabled-input" class=" form-control-label">SMC A/C No.  :</label></div>
                             <div class="col-24 col-md-2"> <input type="text" id="O1CUSN" maxlength="8"  readonly=""   name="O1CUSN" value="<?php echo $_GET["O1CUSN"]; ?>" placeholder="SMC A/C No."   class="form-control"></div>
@@ -299,6 +334,19 @@ $O7ESNM = iconv("windows-874", "utf-8", $SOPOB2["O7ESNM"]);
 
 
                           </div>
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
 
                          <div class="row form-group">
                          
@@ -587,7 +635,9 @@ $("input").click(function(){
                       <!--  END DRAP DROP  -->
                        <div class="card-footer" align="center">
                         <p id="demo"></p>
-                      
+                        <!--  <button type="submit" id = "submit_one"  onclick="myFunction()" class="btn btn-primary btn-sm">
+                          <i class="fa fa-dot-circle-o"></i> Save
+                        </button> -->
 
                       <button type="submit" id = "submit_one" formaction="./update_data_add.php"   class="btn btn-primary btn-sm">
                           <i class="fa fa-dot-circle-o"></i> Save
@@ -637,7 +687,21 @@ $("input").click(function(){
 
                    
 
-   
+
+           /*     if(document.getElementById("customer_cusn").value == "")
+                {
+                    alert('Please fill  Tax ID   !!');
+                    document.getElementById("customer_cusn").focus();
+                    return false;
+                } else
+
+                if(document.getElementById("customer_cusn1").value == "")
+                {
+                    alert('Please fill  Tax  Branch  Code   !!');
+                    document.getElementById("customer_cusn1").focus();
+                    return false;
+                } else */
+
 
                  if(document.getElementById("User_Code_Dist").value == "")
                 {
@@ -765,10 +829,10 @@ $("input").click(function(){
                 }
             else
 
-			    if (document.getElementById("total").value == 0) {
-			            alert("Please fill  value  of  month !!  ");
-			            return false;
-			    } 
+          if (document.getElementById("total").value == 0) {
+                  alert("Please fill  value  of  month !!  ");
+                  return false;
+          } 
 
                 else     if (parseFloat(sum) <= 0) {
 
@@ -792,7 +856,27 @@ $("input").click(function(){
                         return false;
                 }  
 
-       
+          /*  else
+
+         if(document.getElementById("User_Code_Dist").value != "")
+                {
+                    var value_a = document.getElementById("User_Code_Dist").value;
+                    var value_b = document.getElementById("Distributor").value;
+                    var value_c = document.getElementById("O1CUSN").value;
+                     $.post("check_code.php", { Usercode : value_a,Districode : value_b,Smccode : value_c } , function(return_value, status_a){
+
+                   if ( return_value == 1 ) {
+ 
+                      alert("Please new fill  Distributor End  User Code because Duplicate  !! ");
+                      document.getElementById("User_Code_Dist").value = "";
+                      document.getElementById("User_Code_Dist").focus();             
+                        return false;
+                     }
+
+                    }); 
+
+                } */
+                
  
     var status = confirm("Do you want to save Entry Data?");
 
@@ -828,7 +912,10 @@ $("input").click(function(){
                             }
 ////////////// input condition
 
- 
+
+   
+
+
 
 
   }
@@ -1087,7 +1174,7 @@ document.getElementById("Year").addEventListener("keyup", function(event) {
 
           //console.log(return_value); //debug
 
-	
+  
           var object = jQuery.parseJSON(return_value);
           $("#O1ECNM").val(object.O1ECNM);
           $("#O1TCNM").val(object.O1TCNM);

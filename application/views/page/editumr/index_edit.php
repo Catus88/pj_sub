@@ -1,452 +1,4 @@
-
-  <script>
-function fncSubmit()
-{
- 
-       if(document.getElementById("Distributor").value == "")
-        {
-          alert('Please fill  Distributor Code !!');
-          document.getElementById("Distributor_end_user").focus();
-          return false;
-        }
-
-       if(document.getElementById("idemployee3").value == "")
-        {
-          alert('Please fill SMC A/C No !!');
-          document.getElementById("idemployee3").focus();
-          return false;
-        }
-
-       if(document.getElementById("Code").value == "")
-        {
-          alert('Please fill Distributor End User Code  !!');
-          document.getElementById("Code").focus();
-          return false;
-        }
-
-       if(document.getElementById("Man").value == "")
-        {
-          alert('Please fill  Distributor Salesman  !! ');
-          document.getElementById("Man").focus();
-          return false;
-        }
-
-       if(document.getElementById("Contact_Name").value == "")
-        {
-          alert('Please fill  Issue By!! ');
-          document.getElementById("Contact_Name").focus();
-          return false;
-        }
-
-       if(document.getElementById("Email").value == "")
-        {
-          alert('Please fill  Email!! ');
-          document.getElementById("Email").focus();
-          return false;
-        }
-       if(document.getElementById("Position").value == "")
-        {
-          alert('Please fill  Position!! ');
-          document.getElementById("Position").focus();
-          return false;
-        }
-         if(document.getElementById("Tel").value == "")
-        {
-          alert('Please fill  Tel !! ');
-          document.getElementById("Tel").focus();
-          return false;
-        }
-       if(document.getElementById("Year").value == "")
-        {
-          alert('Please Input Fiscal Year for Budget !!  ');
-          document.getElementById("Year").focus();
-          return false;
-        }
-
-
-           if(document.getElementById("input1").value == "")
-                {
-                    alert('Please fill  value  of  April , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input1").focus();
-                    return false;
-                }
-
-        if(document.getElementById("input2").value == "")
-                {
-                    alert('Please fill  value  of  May , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input2").focus();
-                    return false;
-                }
-       if(document.getElementById("input3").value == "")
-                {
-                    alert('Please fill  value  of  June , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input3").focus();
-                    return false;
-                }
-        if(document.getElementById("input4").value == "")
-                {
-                    alert('Please fill  value  of  July , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input4").focus();
-                    return false;
-                }
-          if(document.getElementById("input5").value == "")
-                {
-                    alert('Please fill  value  of  August , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input5").focus();
-                    return false;
-                }
-
-          if(document.getElementById("input6").value == "")
-                {
-                    alert('Please fill  value  of  September , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input6").focus();
-                    return false;
-                }
-
-          if(document.getElementById("input7").value == "")
-                {
-                    alert('Please fill  value  of  October , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input7").focus();
-                    return false;
-                }
-       if(document.getElementById("input8").value == "")
-                {
-                    alert('Please fill  value  of  November , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input8").focus();
-                    return false;
-                }
-        if(document.getElementById("input9").value == "")
-                {
-                    alert('Please fill  value  of  December , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input8").focus();
-                    return false;
-                }
-
-        if(document.getElementById("input10").value == "")
-                {
-                    alert('Please fill  value  of  January , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input10").focus();
-                    return false;
-                }
-        if(document.getElementById("input11").value == "")
-                {
-                    alert('Please fill  value  of  February , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input11").focus();
-                    return false;
-                }
-        if(document.getElementById("input12").value == "")
-                {
-                    alert('Please fill  value  of  March , Enter a value of at least 0 or more !! ');
-                    document.getElementById("input12").focus();
-                    return false;
-                }
-
-
-  if (document.getElementById('total').value <= "0")
- {
-     alert('Please fill  value  !! ');
-        document.getElementById('total').focus();
-     return false;
-
- }
-
-
-     if (parseFloat(sum) <= 0) {
-
-            alert("Please enter a value greater than zero!!");
-
-                             
-     }  
-     
- 
-
-
-  document.form1.submit();
-}
-</script>
-
-   <?php  
- 
- /*
-
-$querystr_SOPDG  = odbc_exec($conn,"select  *   from smcdta.SOPDG where  DGRFNO  = '".$DCNO."'   ");
-$result_sopdg2 = odbc_fetch_array($querystr_SOPDG);
-$DGPOEN  = iconv("windows-874", "utf-8", $result_sopdg2["DGPOEN"]);
-$DGCENM  = iconv("windows-874", "utf-8", $result_sopdg2["DGCENM"]);
-$DGTLNO  = iconv("windows-874", "utf-8", $result_sopdg2["DGTLNO"]);
-$DGEMA1  = iconv("windows-874", "utf-8", $result_sopdg2["DGEMA1"]); 
-
-
-    $querystr_SOPCA = odbc_exec($conn,"select *  from smcdta.SOPCA where  CARFNO = '".$DCNO."' ");
-    $result_sopca = odbc_fetch_array($querystr_SOPCA);
-    $CACENM = iconv("windows-874", "utf-8", $result_sopca["CACENM"]);
-    $CACTNM = iconv("windows-874", "utf-8", $result_sopca["CACTNM"]);
-    $CAEAD1 = iconv("windows-874", "utf-8", $result_sopca["CAEAD1"]);
-    $CAEAD2 = iconv("windows-874", "utf-8", $result_sopca["CAEAD2"]);
-    $CAEAD3 = iconv("windows-874", "utf-8", $result_sopca["CAEAD3"]);
-    $CAEAD4 = iconv("windows-874", "utf-8", $result_sopca["CAEAD4"]);
-    $CATAD1 = iconv("windows-874", "utf-8", $result_sopca["CATAD1"]);
-    $CATAD2 = iconv("windows-874", "utf-8", $result_sopca["CATAD2"]);
-    $CATAD3 = iconv("windows-874", "utf-8", $result_sopca["CATAD3"]);
-    $CATAD4 = iconv("windows-874", "utf-8", $result_sopca["CATAD4"]);
-    $CAPSTC = iconv("windows-874", "utf-8", $result_sopca["CAPSTC"]);
-    $CATLNO = iconv("windows-874", "utf-8", $result_sopca["CATLNO"]);
-    $CAFXNO = iconv("windows-874", "utf-8", $result_sopca["CAFXNO"]);
-    $CATCNM = iconv("windows-874", "utf-8", $result_sopca["CATCNM"]);
-    $CAECNM  = iconv("windows-874", "utf-8", $result_sopca["CAECNM"]);
-    $CACUSN = iconv("windows-874", "utf-8", $result_sopca["CACUSN"]);
-    $CARFDT = iconv("windows-874", "utf-8", $result_sopca["CARFDT"]);
-    $CARFNO = iconv("windows-874", "utf-8", $result_sopca["CARFNO"]);
-    $CAEFDT = iconv("windows-874", "utf-8", $result_sopca["CAEFDT"]);
-    $CACHQP = iconv("windows-874", "utf-8", $result_sopca["CACHQP"]);
-    $CARGEX = iconv("windows-874", "utf-8", $result_sopca["CARGEX"]);
-    $CADSTC  = iconv("windows-874", "utf-8", $result_sopca["CADSTC"]);
-    $CATSR1  = iconv("windows-874", "utf-8", $result_sopca["CATSR1"]);
-    $CATSR1  = iconv("windows-874", "utf-8", $result_sopca["CATSR1"]);
- 
-    $querystr_SOPU0 = odbc_exec($conn,"select *  from smcdta.SOPU0 where  U0DSTC = '".$CADSTC."' ");
-    $result_sopu0 = odbc_fetch_array($querystr_SOPU0);
-    $U0DSTC = iconv("windows-874", "utf-8", $result_sopu0["U0DSTC"]);
-
-    $CADSTC_trim = trim($CADSTC);
-    $CATCNM_trim = trim($CATCNM);
-    $CAECNM_trim = trim($CAECNM);
-    $CACUSN_trim = trim($CACUSN);
-  
-    $CARFDT_trim = date_create_from_format('Ymd',$CARFDT);
-     $CARFDT_trimD = date_format($CARFDT_trim,'Y/m/d');
-    $CARFNO_trim = trim($CARFNO);
-    $CAEFDT_trim = trim($CAEFDT);
-    $CACENM_trim = trim($CACENM);
-    $CACTNM_trim = trim($CACTNM);
-    $CAEAD1_trim = trim($CAEAD1);
-    $CAEAD2_trim = trim($CAEAD2);
-    $CAEAD3_trim = trim($CAEAD3);
-    $CATAD1_trim = trim($CATAD1);
-    $CATAD2_trim = trim($CATAD2);
-    $CATAD3_trim = trim($CATAD3);
-    $CATAD4_trim = trim($CATAD4);
-    $CAPSTC_trim = trim($CAPSTC);
-    $CATLNO_trim = trim($CATLNO);
-    $CAFXNO_trim = trim($CAFXNO);
-    $CACHQP_trim = trim($CACHQP);
-    $CARGEX_trim  = trim($CARGEX);
-
-     
-
-       
-  
-  if ($_GET['O1CUSN']  == '' ) {
-       $VALUE_O1CUSN  = $CACUSN_trim ;
-  } else
-  {
-     $VALUE_O1CUSN  = $_GET['O1CUSN'] ;
-  }
-
-  $querystr_SOPCA = odbc_exec($conn,"select *  from smcdta.sopo1 where  O1CUSN = '".$VALUE_O1CUSN."' ");
-  $result_approve = odbc_fetch_array($querystr_SOPCA);
-  $O1CUSN = iconv("windows-874", "utf-8", $result_approve["O1CUSN"]);
-  $O1ECNM = iconv("windows-874", "utf-8", $result_approve["O1ECNM"]);
-  $O1TCNM = iconv("windows-874", "utf-8", $result_approve["O1TCNM"]);
-  $O1CENM = iconv("windows-874", "utf-8", $result_approve["O1CENM"]);
-  $O1CTNM = iconv("windows-874", "utf-8", $result_approve["O1CTNM"]);
-  $O1EAD1 = iconv("windows-874", "utf-8", $result_approve["O1EAD1"]);
-  $O1EAD2 = iconv("windows-874", "utf-8", $result_approve["O1EAD2"]);
-  $O1EAD3 = iconv("windows-874", "utf-8", $result_approve["O1EAD3"]);
-  $O1EAD4 = iconv("windows-874", "utf-8", $result_approve["O1EAD4"]);
-  $O1TAD1 = iconv("windows-874", "utf-8", $result_approve["O1TAD1"]);
-  $O1TAD2 = iconv("windows-874", "utf-8", $result_approve["O1TAD2"]);
-  $O1TAD3 = iconv("windows-874", "utf-8", $result_approve["O1TAD3"]);
-  $O1TAD4 = iconv("windows-874", "utf-8", $result_approve["O1TAD4"]);
-  $O1PSTC = iconv("windows-874", "utf-8", $result_approve["O1PSTC"]);
-  $O1TLNO = iconv("windows-874", "utf-8", $result_approve["O1TLNO"]);
-  $O1FXNO = iconv("windows-874", "utf-8", $result_approve["O1FXNO"]);
-  $O1EFDT = iconv("windows-874", "utf-8", $result_approve["O1EFDT"]);
-  $O1EFDT1 = date_create_from_format('Ymd',$O1EFDT);
-  $O1EFDTD = date_format($O1EFDT1,'Y/m/d');
-
-
-  $O1TSR1 = iconv("windows-874", "utf-8", $result_approve["O1TSR1"]);
-  $O1CHQP = iconv("windows-874", "utf-8", $result_approve["O1CHQP"]);
-  $O1RGEX = iconv("windows-874", "utf-8", $result_approve["O1RGEX"]);
-  $O1TRRY = iconv("windows-874", "utf-8", $result_approve["O1TRRY"]);
-
-  $querystr_SOPO8 = odbc_exec($conn,"select *   from smcdta.SOPO8 where  O8CUSN = '".$VALUE_O1CUSN."' limit 1  ");
-  $result_sopo8 = odbc_fetch_array($querystr_SOPO8);
-  $O8CENM = iconv("windows-874", "utf-8", $result_sopo8["O8CENM"]);
-  $O8CTNM = iconv("windows-874", "utf-8", $result_sopo8["O8CTNM"]);
-  $O8TAD1 = iconv("windows-874", "utf-8", $result_sopo8["O8TAD1"]);
-  $O8EAD1 = iconv("windows-874", "utf-8", $result_sopo8["O8EAD1"]);
-  $O8EAD2 = iconv("windows-874", "utf-8", $result_sopo8["O8EAD2"]);
-  $O8EAD3 = iconv("windows-874", "utf-8", $result_sopo8["O8EAD3"]);
-  $O8TAD2 = iconv("windows-874", "utf-8", $result_sopo8["O8TAD2"]);
-  $O8TAD3 = iconv("windows-874", "utf-8", $result_sopo8["O8TAD3"]);
-  $O8TLNO = iconv("windows-874", "utf-8", $result_sopo8["O8TLNO"]);
-  $O8FXNO = iconv("windows-874", "utf-8", $result_sopo8["O8FXNO"]);
-  $O8PSTC = iconv("windows-874", "utf-8", $result_sopo8["O8PSTC"]);
-  $O8CENM = iconv("windows-874", "utf-8", $result_sopo8["O8CENM"]);
-  $O8CTNM = iconv("windows-874", "utf-8", $result_sopo8["O8CTNM"]);
-
-
-
-  $querystr_SOPCF = odbc_exec($conn,"select CFUSRC   from smcdta.SOPCF where  CFRFNO = '".$DCNO."' ");
-  $result_sopcf = odbc_fetch_array($querystr_SOPCF);
-  $CFUSRC  = iconv("windows-874", "utf-8", $result_sopcf["CFUSRC"]);
-
-
-  $querystr_SOPCC = odbc_exec($conn,"select CCOCR1   from smcdta.SOPCC where  CCRFNO  = '".$DCNO."' and CCTYPE ='SLDS'  and CCSEQN = '1' ");
-  $result_sopcc = odbc_fetch_array($querystr_SOPCC);
-  $CCOCR1  = iconv("windows-874", "utf-8", $result_sopcc["CCOCR1"]);
-
-
-  $this_date = date("Ymd");
-
-  $querystr_SOPOH = odbc_exec($conn,"select  OHCCTX,OHSTRG,OHGRP1,OHGRP2  from smcdta.SOPOH where  OHCUSN = '".$VALUE_O1CUSN."' ");
-  $result_sopoh = odbc_fetch_array($querystr_SOPOH);
-  $OHCCTX  = iconv("windows-874", "utf-8", $result_sopoh["OHCCTX"]);
-  $OHSTRG  = iconv("windows-874", "utf-8", $result_sopoh["OHSTRG"]);
-  $OHGRP1 = iconv("windows-874", "utf-8", $result_sopoh["OHGRP1"]);
-    $OHGRP2 = iconv("windows-874", "utf-8", $result_sopoh["OHGRP2"]);
-     $INDT = $OHGRP1;
-     $INDT1 = $OHGRP2;
-  $STRG = "00".$OHSTRG;
-
-
-  $querystr_SOPOW = odbc_exec($conn,"select  OWINDC ,OWGLEM ,OWGLEU,OWPRJP  from smcdta.SOPOW where  OWCUSN = '".$VALUE_O1CUSN."' ");
-  $result_sopow = odbc_fetch_array($querystr_SOPOW);
-  $OWINDC  = iconv("windows-874", "utf-8", $result_sopow["OWINDC"]);
-  $OWGLEM  = iconv("windows-874", "utf-8", $result_sopow["OWGLEM"]);
-  $OWGLEU  = iconv("windows-874", "utf-8", $result_sopow["OWGLEU"]);
-  $OWPRJP  = iconv("windows-874", "utf-8", $result_sopow["OWPRJP"]);
-  $OWMIX = $OWINDC.$OWGLEM.$OWGLEU.$OWPRJP;
-
-   # $INDT = substr($OWINDC,0,2);
-  $querystr_SOPLE = odbc_exec($conn,"select  LETRRY  from smcdta.SOPLE where  LECUSN = '".$VALUE_O1CUSN."' ");
-  $result_sopLE = odbc_fetch_array($querystr_SOPLE);
-  $LETRRY  = iconv("windows-874", "utf-8", $result_sopLE["LETRRY"]);
-  $LEEFDT  = iconv("windows-874", "utf-8", $result_sopLE["LEEFDT"]);
-
-  if ($LEEFDT <= $this_date) {
-        $TRR = $LETRRY;
-
-  } else {
-       $TRR = $O1TRRY;
-
-  }
-
-
-
-  $querystr_SOPOA = odbc_exec($conn,"select  OASLMN  from smcdta.SALETRR3 where  OATRRY = '".$O1TRRY."'  ORDER BY OAEFDT desc  ");
-  $result_sopoa = odbc_fetch_array($querystr_SOPOA);
-  $OASLMN  = iconv("windows-874", "utf-8", $result_sopoa["OASLMN"]);
-  $OASLMN_trim = trim($OASLMN);
-
-
-  $querystr_SOPOB = odbc_exec($conn,"select  OBAMGR  from smcdta.SOPOB where  OBSLMN = '".$OASLMN_trim."' ");
-  $result_sopob = odbc_fetch_array($querystr_SOPOB);
-  $OBAMGR  = iconv("windows-874", "utf-8", $result_sopob["OBAMGR"]);
-  $OBAMGR_trim = trim($OBAMGR);
-
-
-  $querystr_SOPO7a = odbc_exec($conn,"select  O7ESNM  from smcdta.SOPO7 where  O7SLMN = '".$OBAMGR_trim."' ");
-  $result_sopo7a = odbc_fetch_array($querystr_SOPO7a);
-  $O7ESNMa  = iconv("windows-874", "utf-8", $result_sopo7a["O7ESNM"]);
-
-  $querystr_SOPO7 = odbc_exec($conn,"select  O7ESNM  from smcdta.SOPO7 where  O7SLMN = '".$OASLMN_trim."' ");
-  $result_sopo7 = odbc_fetch_array($querystr_SOPO7);
-  $O7ESNM  = iconv("windows-874", "utf-8", $result_sopo7["O7ESNM"]);
-  $OBAMGR11 = $OBAMGR." ".$O7ESNMa;
-  $OBAMGR111 = $OASLMN." ".$O7ESNM;
-
-
-  $querystr_SOPCCC = odbc_exec($conn,"select  *  from smcdta.SOPC# where  C#RFNO  = '".$DCNO."' ");
-  $result_sopoccc = odbc_fetch_array($querystr_SOPCCC);
-  $CCCYEAR  = iconv("windows-874", "utf-8", $result_sopoccc["C#YEAR"]);
-  $CCCMN01  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN01"]);
-  $CCCMN02  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN02"]);
-  $CCCMN03  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN03"]);
-  $CCCMN04  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN04"]);
-  $CCCMN05  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN05"]);
-  $CCCMN06  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN06"]);
-  $CCCMN07  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN07"]);
-  $CCCMN08  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN08"]);
-  $CCCMN09  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN09"]);
-  $CCCMN10  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN10"]);
-  $CCCMN11  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN11"]);
-  $CCCMN12  = iconv("windows-874", "utf-8", $result_sopoccc["C#MN12"]);
-  $CCCTTAL  = iconv("windows-874", "utf-8", $result_sopoccc["C#TTAL"]);
-
-
-
-  $querystr_SOPCC1 = odbc_exec($conn,"select  *  from smcdta.SOPCC where  CCRFNO  = '".$DCNO."'  and CCTYPE = 'DSRM' and CCSEQN = '1' ");
-  $result_sopocc1 = odbc_fetch_array($querystr_SOPCC1);
-  $CCOCR1  = iconv("windows-874", "utf-8", $result_sopocc1["CCOCR1"]);
-$CCOCR2  = iconv("windows-874", "utf-8", $result_sopocc1["CCOCR2"]);
-$CCOCR3  = iconv("windows-874", "utf-8", $result_sopocc1["CCOCR3"]);
-$CCOCR4  = iconv("windows-874", "utf-8", $result_sopocc1["CCOCR4"]);
-
-$querystr_SOPCC3 = odbc_exec($conn,"select  *  from smcdta.SOPCC where  CCRFNO  = '".$DCNO."'  and CCTYPE = 'DSRM' and CCSEQN = '2' ");
-$result_sopocc3 = odbc_fetch_array($querystr_SOPCC3);
-$CCOCR13  = iconv("windows-874", "utf-8", $result_sopocc3["CCOCR1"]);
-$CCOCR23  = iconv("windows-874", "utf-8", $result_sopocc3["CCOCR2"]);
-
-
-
-$querystr_SOPEX = odbc_exec($conn,"select  EXEDES  from smcdta.SOPEX where  EXEXTP  = 'CNTY'  and EXEXCD = '".$CATSR1."' ");
-$result_sopoex = odbc_fetch_array($querystr_SOPEX);
-$EXEDES  = iconv("windows-874", "utf-8", $result_sopoex["EXEDES"]);
-
-$querystr_SOPCC2 = odbc_exec($conn,"select  CCOCR1  from smcdta.SOPCC where  CCRFNO  = '".$DCNO."'  and CCTYPE = 'SLDS' and CCSEQN = '1' ");
-$result_sopocc2 = odbc_fetch_array($querystr_SOPCC2);
-$CCOCR12  = iconv("windows-874", "utf-8", $result_sopocc2["CCOCR1"]);
-
-
-$querystr_SOPDG  = odbc_exec($conn,"select  *   from smcdta.SOPDG where  DGRFNO  = '".$DCNO."'   ");
-$result_sopdg2 = odbc_fetch_array($querystr_SOPDG);
-$DGPOEN  = iconv("windows-874", "utf-8", $result_sopdg2["DGPOEN"]);
-$DGCENM  = iconv("windows-874", "utf-8", $result_sopdg2["DGCENM"]);
-$DGTLNO  = iconv("windows-874", "utf-8", $result_sopdg2["DGTLNO"]);
-$DGEMA1  = iconv("windows-874", "utf-8", $result_sopdg2["DGEMA1"]); 
-
-*/
-?>
-   
-<body   >
-  
-   
-   
-           
-             
-            <div class="breadcome-area">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="breadcome-list single-page-breadcome">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <div class="breadcome-heading">
-                                          
-                                            
-
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                        <ul class="breadcome-menu">
-                                            <li><a href="index_mail.php">Home</a> <span class="bread-slash">/</span>
-                                            </li>
-                                            <li><span class="bread-blod">User Master Registration Data Entry</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Single pro tab review Start-->
-        <div class="single-pro-review-area mt-t-30 mg-b-15">
+ <div class="single-pro-review-area mt-t-30 mg-b-15">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -527,10 +79,14 @@ $O1ECNM_COM  =   iconv("windows-874", "utf-8", $SOPO1_test["O1ECNM"]);
 
  
                           </div>
- 
+
+
+                           
+
                              <div class="row form-group">
 
-                        
+                         
+  
                           </div>
 
                            <div class="row form-group">
@@ -579,14 +135,7 @@ if (trim($_GET["O1CUSN"]) == "") {
                           <i class="fa fa-dot-circle-o"></i> Click here after type Tax ID & Branch
                             </button>
                             </div>
-                              
-
- 
-
-                           <!--  <div class="col col-md-2"><label for="text-input" class=" form-control-label">SMC A/C No.  :</label></div>
-                            <div class="col-24 col-md-2"><input type="text" readonly="" list="brow"  id="idemployee" name="User_No" placeholder="SMC A/C No."
-                              value="<?php echo $_POST['idemployee3']  ?>"  class="form-control" >
-                            </div>-->
+             
   
                           </div>
                                      
@@ -1062,7 +611,25 @@ $("input").click(function(){
 
   function check_submit(){
 
-      
+         /*  if(document.getElementById("customer_cusn").value == "")
+                {
+                    alert('Please fill  Tax ID   !!');
+                    document.getElementById("customer_cusn").focus();
+                    return false;
+                } 
+
+                if(document.getElementById("customer_cusn1").value == "")
+                {
+                    alert('Please fill  Tax  Branch  Code   !!');
+                    document.getElementById("customer_cusn1").focus();
+                    return false;
+                }
+ 
+ */
+
+                
+
+
                 if(document.getElementById("User_Code_Dist").value == "")
                 {
                     alert('Please fill  Distributor End User Code   !!');
@@ -1442,7 +1009,7 @@ document.getElementById("Year").addEventListener("keyup", function(event) {
 
        $.post("query.php", { taxid: value_a , brachid : value_b } , function(return_value, status_a){
 
-          
+          //console.log(return_value); //debug
 
           var object = jQuery.parseJSON(return_value);
           $("#O1ECNM").val(object.O1ECNM);
@@ -1483,7 +1050,7 @@ document.getElementById("Year").addEventListener("keyup", function(event) {
 
           $("#O1RGEX").val(object.O1RGEX);
          $("#OBAMGR").val(object.OBAMGR);
-      
+        // $("#O1CUSN").val(object.O1CUSN);
          $("#OBAMGR11").val(object.OBAMGR11);   
           $("#OBAMGR111").val(object.OBAMGR111);   
 
@@ -1504,7 +1071,7 @@ document.getElementById("Year").addEventListener("keyup", function(event) {
          
        $.post("query.php", { taxid: value_a , brachid : value_b } , function(return_value, status_a){
 
-      
+          //console.log(return_value); //debug
 
           var object = jQuery.parseJSON(return_value);
           $("#O1ECNM").val(object.O1ECNM);
