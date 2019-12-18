@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://mail.smcthai.co.th:8082/pj_mail/M_UMR/web/';
 
 /*
 |--------------------------------------------------------------------------
