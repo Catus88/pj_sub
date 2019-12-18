@@ -15,17 +15,10 @@ class Login extends CI_Controller
 	public function index()
 	{
 
-		echo "string";
-
-
-	}
-	public function test()
-	{
-
-		echo base_url();
+		$this->load->view("page/login.php");
 
 	}
-
+ 
 
 
 }
