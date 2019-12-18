@@ -13,63 +13,63 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/bootstrap.min.css">
     <!-- Bootstrap CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/font-awesome.min.css">
     <!-- owl.carousel CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
-    <link rel="stylesheet" href="css/owl.transitions.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/owl.carousel.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/owl.theme.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/owl.transitions.css">
     <!-- animate CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/animate.css">
     <!-- normalize CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/normalize.css">
     <!-- meanmenu icon CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/meanmenu.min.css">
     <!-- main CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/main.css">
     <!-- educate icon CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/educate-custon-icon.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/educate-custon-icon.css">
     <!-- morrisjs CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/morrisjs/morris.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/morrisjs/morris.css">
     <!-- mCustomScrollbar CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/scrollbar/jquery.mCustomScrollbar.min.css">
     <!-- metisMenu CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/metisMenu/metisMenu.min.css">
-    <link rel="stylesheet" href="css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/metisMenu/metisMenu-vertical.css">
     <!-- calendar CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
-    <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/calendar/fullcalendar.print.min.css">
     <!-- x-editor CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/editor/select2.css">
-    <link rel="stylesheet" href="css/editor/datetimepicker.css">
-    <link rel="stylesheet" href="css/editor/bootstrap-editable.css">
-    <link rel="stylesheet" href="css/editor/x-editor-style.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/editor/select2.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/editor/datetimepicker.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/editor/bootstrap-editable.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/editor/x-editor-style.css">
     <!-- normalize CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/data-table/bootstrap-table.css">
-    <link rel="stylesheet" href="css/data-table/bootstrap-editable.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/data-table/bootstrap-table.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/data-table/bootstrap-editable.css">
     <!-- style CSS
 		============================================ -->
     <link rel="stylesheet" href="style.css">
     <!-- responsive CSS
 		============================================ -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/responsive.css">
     <!-- modernizr JS
 		============================================ -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -339,68 +339,68 @@
 
     <!-- jquery
 		============================================ -->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/vendor/jquery-1.12.4.min.js"></script>
     <!-- bootstrap JS
 		============================================ -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/bootstrap.min.js"></script>
     <!-- wow JS
 		============================================ -->
-    <script src="js/wow.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/wow.min.js"></script>
     <!-- price-slider JS
 		============================================ -->
-    <script src="js/jquery-price-slider.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/jquery-price-slider.js"></script>
     <!-- meanmenu JS
 		============================================ -->
-    <script src="js/jquery.meanmenu.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/jquery.meanmenu.js"></script>
     <!-- owl.carousel JS
 		============================================ -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/owl.carousel.min.js"></script>
     <!-- sticky JS
 		============================================ -->
-    <script src="js/jquery.sticky.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/jquery.sticky.js"></script>
     <!-- scrollUp JS
 		============================================ -->
-    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/jquery.scrollUp.min.js"></script>
     <!-- mCustomScrollbar JS
 		============================================ -->
-    <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="js/scrollbar/mCustomScrollbar-active.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/scrollbar/mCustomScrollbar-active.js"></script>
     <!-- metisMenu JS
 		============================================ -->
-    <script src="js/metisMenu/metisMenu.min.js"></script>
-    <script src="js/metisMenu/metisMenu-active.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/metisMenu/metisMenu.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/metisMenu/metisMenu-active.js"></script>
     <!-- data table JS
 		============================================ -->
-    <script src="js/data-table/bootstrap-table.js"></script>
-    <script src="js/data-table/tableExport.js"></script>
-    <script src="js/data-table/data-table-active.js"></script>
-    <script src="js/data-table/bootstrap-table-editable.js"></script>
-    <script src="js/data-table/bootstrap-editable.js"></script>
-    <script src="js/data-table/bootstrap-table-resizable.js"></script>
-    <script src="js/data-table/colResizable-1.5.source.js"></script>
-    <script src="js/data-table/bootstrap-table-export.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/data-table/bootstrap-table.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/data-table/tableExport.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/data-table/data-table-active.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/data-table/bootstrap-table-editable.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/data-table/bootstrap-editable.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/data-table/bootstrap-table-resizable.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/data-table/colResizable-1.5.source.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/data-table/bootstrap-table-export.js"></script>
     <!--  editable JS
 		============================================ -->
-    <script src="js/editable/jquery.mockjax.js"></script>
-    <script src="js/editable/mock-active.js"></script>
-    <script src="js/editable/select2.js"></script>
-    <script src="js/editable/moment.min.js"></script>
-    <script src="js/editable/bootstrap-datetimepicker.js"></script>
-    <script src="js/editable/bootstrap-editable.js"></script>
-    <script src="js/editable/xediable-active.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/editable/jquery.mockjax.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/editable/mock-active.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/editable/select2.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/editable/moment.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/editable/bootstrap-datetimepicker.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/editable/bootstrap-editable.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/editable/xediable-active.js"></script>
     <!-- Chart JS
 		============================================ -->
-    <script src="js/chart/jquery.peity.min.js"></script>
-    <script src="js/peity/peity-active.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/chart/jquery.peity.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/peity/peity-active.js"></script>
     <!-- tab JS
 		============================================ -->
-    <script src="js/tab.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/tab.js"></script>
     <!-- plugins JS
 		============================================ -->
-    <script src="js/plugins.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/plugins.js"></script>
     <!-- main JS
 		============================================ -->
-    <script src="js/main.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/js/main.js"></script>
     <!-- tawk chat JS
 		============================================ -->
   
