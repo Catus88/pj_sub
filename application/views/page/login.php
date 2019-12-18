@@ -32,7 +32,7 @@
             <div class="login-content">
                 <div class="login-logo">
                     <a href="home.php">
-                        <img class="align-content" src="images/SMC_white398px.png" alt=""  >
+                        <img class="align-content" src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/images/SMC_white398px.png" alt=""  >
                     </a>
                 </div>
                 <div class="login-form">
