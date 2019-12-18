@@ -22,7 +22,7 @@ class Login extends CI_Controller
 	public function test()
 	{
 
-		echo "te";
+		echo base_url();
 
 	}
 
