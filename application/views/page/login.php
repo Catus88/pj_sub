@@ -36,7 +36,7 @@
                     </a>
                 </div>
                 <div class="login-form">
-                  <form method ="post"  action="./login_query.php">
+                  <form method ="post"  action="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/index.php/login/Authen">
                         <div class="form-group">
                             <label>ชื่อผู้ใช้/Username :</label>
                             <input type="text" class="form-control" placeholder="Username"  name="member_code"  >
