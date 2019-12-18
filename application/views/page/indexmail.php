@@ -63,7 +63,7 @@
     <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/data-table/bootstrap-editable.css">
     <!-- style CSS
 		============================================ -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/style.css">
     <!-- responsive CSS
 		============================================ -->
     <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/css/responsive.css">
