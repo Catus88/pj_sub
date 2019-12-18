@@ -18,6 +18,12 @@ class Login extends CI_Controller
 		$this->load->view("page/login.php");
 
 	}
+	public function authen()
+	{
+
+		print_r($this->input->post());
+
+	}
  
 
 
