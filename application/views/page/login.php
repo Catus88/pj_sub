@@ -10,14 +10,14 @@
     <link rel="apple-touch-icon" href="apple-icon.png">
     <link rel="shortcut icon" href="Untitled-2.png">
 
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/flag-icon.min.css">
-    <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
-    <!-- <link rel="stylesheet" href="assets/css/bootstrap-select.less"> -->
-    <link rel="stylesheet" href="assets/scss/style.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/css/normalize.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/css/flag-icon.min.css">
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/css/cs-skin-elastic.css">
+    <!-- <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/css/bootstrap-select.less"> -->
+    <link rel="stylesheet" href="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/scss/style.css">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
 
@@ -62,10 +62,10 @@
     </div>
 
 
-    <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/js/popper.min.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/js/plugins.js"></script>
+    <script src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/assets/js/main.js"></script>
 
 
 </body>
