@@ -24,6 +24,10 @@ class Login extends CI_Controller
 		print_r($this->input->post());
 
 	}
+	public function indexmail()
+	{
+		$this->load->view("page/indexmail.php");
+	}
  
 
 
