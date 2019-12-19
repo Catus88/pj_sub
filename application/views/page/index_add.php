@@ -269,10 +269,7 @@
      
 
 
-                           <!--  <div class="col col-md-2"><label for="text-input" class=" form-control-label">SMC A/C No.  :</label></div>
-                            <div class="col-24 col-md-2"><input type="text" readonly="" list="brow"  id="idemployee" name="User_No" placeholder="SMC A/C No."
-                              value="<?php echo $_POST['idemployee3']  ?>"  class="form-control" >
-                            </div>-->
+                          
   
                           </div>
 
@@ -304,10 +301,10 @@
 
                           <div class="row form-group">
                                <div class="col col-md-2"><label for="password-input" class=" form-control-label">User Name      :</label></div>
-                            <div class="col-24 col-md-5"><input type="text" id="O1ECNM" name="engname" readonly="" placeholder="User Name Eng"  value="<?php echo $O1ECNM; ?>" class="form-control"></div>
+                            <div class="col-24 col-md-5"><input type="text" id="O1ECNM" name="engname" readonly="" placeholder="User Name Eng"  value=" " class="form-control"></div>
 
                             
-                               <div class="col-24 col-md-4"><input type="text" id="O1TCNM"  readonly="" name="O1TCNM" value="<?php echo $O1TCNM; ?>" placeholder="User Name Thai"  class="form-control"></div>
+                               <div class="col-24 col-md-4"><input type="text" id="O1TCNM"  readonly="" name="O1TCNM" value=" " placeholder="User Name Thai"  class="form-control"></div>
 
 
                           </div>
@@ -371,17 +368,7 @@
 
                             <div class="col-24 col-md-4"><input type="text" id="O1CTNM"  readonly="" name="O1CTNM" value=" " placeholder="Contract Person"  class="form-control"></div>
                              
-                          <!--       <div class="container">
-  
-      
-   <?php  echo " <a href='./Display_more.php?O1CUSN=".$_GET["O1CUSN"]."'   target='_blank'  class='btn btn-primary btn-sm ' > 
-
-                        More Detail </a> ";  ?>
-   
-  
-   
-  
-</div> -->
+                       
 
                           </div>
 
@@ -519,14 +506,10 @@
                              
                             </ul>
 
-                            <?php 
-
-
-
-                            ?>
+                             
                                                     <div class="row form-group">
                             <div class="col col-md-2"><label for="disabled-input" class=" form-control-label"><font color="red">*Fisical Year  Budget :</font> </label></div>
-                            <div class="col-24 col-md-4"> <input type="text" id="Year"  maxlength="4"    pattern="[0-9]{4}"   name="Year" value="<?php  echo date("Y") ?>" placeholder="Fiscal Year Budget" class="form-control"></div>
+                            <div class="col-24 col-md-4"> <input type="text" id="Year"  maxlength="4"    pattern="[0-9]{4}"   name="Year" value=" " placeholder="Fiscal Year Budget" class="form-control"></div>
 
                            
 
