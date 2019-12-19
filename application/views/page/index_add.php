@@ -203,13 +203,13 @@
 
                              <div class="col col-md-2"><label for="text-input" class=" form-control-label"> UMR No. : </label></div>
                             <div class="col-24 col-md-2"><input type="text"  readonly="" id="CARFNO" name="CARFNO" placeholder="UMR No."
-                              value="<?php echo $CARFNO_trim; ?>"  class="form-control">
+                              value=" "  class="form-control">
 
                             </div>
 
                              <div class="col col-md-2"><label for="text-input" class=" form-control-label"> Date :  </label></div>
                             <div class="col-24 col-md-2"><input type="text"  readonly="" id="date_umr" name="user_ref_date" placeholder="Date"
-                              value="<?php echo $this_date ; ?>"  class="form-control">
+                              value=" "  class="form-control">
 
   </div>
 
@@ -219,12 +219,12 @@
                             <div class="col col-md-2"><label for="disabled-input" class=" form-control-label">Distributor Code:</label></div>
                             <div class="col-24 col-md-2"><input type="text"  readonly="" id="Distributor" placeholder="Distributor Code"   
                               name="Distributor" placeholder="Distributor Code"
-                              value="<?php  echo  $Company  ;?>" class="form-control"></div>
+                              value=" " class="form-control"></div>
 
  
 
                             <div class="col col-md-2"><label for="text-input" class=" form-control-label">Distributor Name   :</label></div>
-                            <div class="col-24 col-md-4"><input type="text" id=" "  readonly="" name="Distributor_name" value="<?php  echo  $O1ECNM_COM  ;?>" placeholder="Distributor Name"  class="form-control">
+                            <div class="col-24 col-md-4"><input type="text" id=" "  readonly="" name="Distributor_name" value=" " placeholder="Distributor Name"  class="form-control">
                             </div>
 
                              
