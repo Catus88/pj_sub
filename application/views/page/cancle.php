@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="logo-pro">
-                        <a href="index_mail.php"><img class="main-logo" src="img/logo/logo.png" alt=""  width="120" height="20" /></a>
+                        <a href="index_mail.php"><img class="main-logo" src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/img/logo/logo.png" alt=""  width="120" height="20" /></a>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                                                 
                                                 <li class="nav-item">
                                                     <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-															<img src="img/product/pro4.jpg" alt="" />
+															<img src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/img/product/pro4.jpg" alt="" />
 															<span class="admin-name">Welcome :  </span>
 															<i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
 														</a>
