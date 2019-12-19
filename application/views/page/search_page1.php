@@ -1,30 +1,4 @@
-   
-            <!-- Mobile Menu start -->
-            <div class="mobile-menu-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="mobile-menu">
-                                <nav id="dropdown">
-                                    <ul class="mobile-menu-nav">
-                                        <li><a data-toggle="collapse" data-target="#Charts" href="index_mail.php">Home <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
-                                            <ul class="collapse dropdown-header-top">
-                                                <li><a href="index_mail.php">More Detail Search  User Master Registration Data Entry</a></li>
-                                               
-                                            </ul>
-                                        </li>
-                                         
-                                    
-                      
-                                      
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Mobile Menu end -->
+    
             <div class="breadcome-area">
                 <div class="container-fluid">
                     <div class="row">
@@ -85,19 +59,19 @@
 
                             <div class="row form-group">
                            <div class="col col-md-2"><label for="disabled-input" class=" form-control-label">A/C Code   :</label></div>
-                           <div class="  col-md-2"><input type="text" id="O1TAD1"  readonly="" name="O1TAD1" value="<?php echo  $sopo1_query1A['O1CUSN'] ; ?>" placeholder="A/C Code"  class="form-control"></div>
+                           <div class="  col-md-2"><input type="text" id="O1TAD1"  readonly="" name="O1TAD1" value=" " placeholder="A/C Code"  class="form-control"></div>
 
-                              <div class="col-24 col-md-8"><input type="text" id="O1TAD1"  readonly="" name="O1TAD1" value="<?php echo $sopo1_query1A['O1ECNM'] ;  ?>" placeholder="End Username"  class="form-control"></div>    
+                              <div class="col-24 col-md-8"><input type="text" id="O1TAD1"  readonly="" name="O1TAD1" value=" " placeholder="End Username"  class="form-control"></div>    
 
                          </div>
 
 
                             <div class="row form-group">
                            <div class="col col-md-2"><label for="disabled-input" class=" form-control-label">Tax ID   :</label></div>
-                           <div class="col-24 col-md-2"><input type="text" id="O1TAD1"  readonly="" name="O1TAD1" value="<?php echo $sopo1_query1A['OHCCTX'] ; ?>" placeholder="Tax ID"  class="form-control"></div>
+                           <div class="col-24 col-md-2"><input type="text" id="O1TAD1"  readonly="" name="O1TAD1" value=" " placeholder="Tax ID"  class="form-control"></div>
 
                               <div class="col col-md-2"><label for="disabled-input" class=" form-control-label">Tax Branch Code  :</label></div>
-                           <div class="col-24 col-md-2"><input type="text" id="O1TAD1"  readonly="" name="O1TAD1" value="<?php echo $OHSTRG_TEST ; ?>" placeholder="Tax Brand Code"  class="form-control"></div>
+                           <div class="col-24 col-md-2"><input type="text" id="O1TAD1"  readonly="" name="O1TAD1" value=" " placeholder="Tax Brand Code"  class="form-control"></div>
 
                          </div>
 
