@@ -3,7 +3,7 @@
 /**
  * 
  */
-class Create extends CI_Controller
+class Indexadd extends CI_Controller
 {
 	
 	function __construct()
