@@ -8,8 +8,8 @@
     <div class="left-sidebar-pro">
         <nav id="sidebar" class="">
             <div class="sidebar-header">
-                <a href="index_mail.php"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
-                <strong><a href="index_mail.php"><img src="img/logo/logo.png" alt="" /></a></strong>
+                <a href="index_mail.php"><img class="main-logo" src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/img/logo/logo.png" alt="" /></a>
+                <strong><a href="index_mail.php"><img src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/img/logo/logo.png" alt="" /></a></strong>
             </div>
             <div class="left-custom-menu-adp-wrap comment-scrollbar">
                 <nav class="sidebar-nav left-sidebar-menu-pro">
@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="logo-pro">
-                         <a href="index_mail.php"><img class="main-logo" src="img/logo/logo.png" alt=""  width="120" height="20" /></a>
+                         <a href="index_mail.php"><img class="main-logo" src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/img/logo/logo.png" alt=""  width="120" height="20" /></a>
                     </div>
                 </div>
             </div>
