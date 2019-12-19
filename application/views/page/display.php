@@ -445,7 +445,7 @@
                              <div class="col col-md-2"><label for="disabled-input" class=" form-control-label">SMC ASM  :</label></div>
                             <div class="col-24 col-md-4"><input type="text" id="OBAMGR11"  readonly="" name="OBAMGR11" value=" " placeholder="SMC Area"  class="form-control"></div>
                                 <div class="col col-md-2"><label for="disabled-input" class=" form-control-label"> Salesman Distributor :</label></div>
-                            <div class="col-24 col-md-4"><input type="text" id="Sales_Man_Dis" readonly="" disabled=""   name="Sales_Man_Dis" value="<?php echo $CCOCR12; ?>" placeholder="Sales Man(Dis)"  class="form-control"></div>
+                            <div class="col-24 col-md-4"><input type="text" id="Sales_Man_Dis" readonly="" disabled=""   name="Sales_Man_Dis" value=" " placeholder="Sales Man(Dis)"  class="form-control"></div>
 
                         </div>
                         
