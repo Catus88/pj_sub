@@ -20,7 +20,14 @@ class Submit extends CI_Controller
 		$this->load->view("template/footer");
 
 	}
+	public function testpost()
+	{
 
+		$this->load->view("template/header");
+		$this->load->view("page/testpost");
+		$this->load->view("template/footer");
+
+	}
 
 }
 
