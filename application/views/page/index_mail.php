@@ -236,6 +236,8 @@
                                         <tbody>
                              
 
+                                        <?php echo $tablevalue; ?>
+       
 
 
                                         </tbody>
@@ -255,6 +257,4 @@
 
 
 
-
-<?php echo $tablevalue; ?>
 
