@@ -236,7 +236,7 @@
                                         <tbody>
                              
 
-                                        <?php echo $tablevalue2; ?>
+                                       
        
 
 
@@ -257,4 +257,4 @@
 
 
 
-
+ <?php print_r($no) ; ?>
