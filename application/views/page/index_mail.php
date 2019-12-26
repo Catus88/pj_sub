@@ -4,39 +4,7 @@
     <!--[if lt IE 8]>
 		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
-    <!-- Start Left menu area -->
-  <div class="left-sidebar-pro">
-        <nav id="sidebar" class="">
-            <div class="sidebar-header">
-                <a href="index_mail.php"><img class="main-logo" src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/img/logo/logo.png" alt="" /></a>
-                <strong><a href="index_mail.php"><img src="http://mail.smcthai.co.th:8082/pj_mail/pj_sub/img/logo/logo.png" alt="" /></a></strong>
-            </div>
-            <div class="left-custom-menu-adp-wrap comment-scrollbar">
-                <nav class="sidebar-nav left-sidebar-menu-pro">
-                    <ul class="metismenu" id="menu1">
-                        <li>
-                            <a class="has-arrow" href="index_mail.php">
-                                   <span class="educate-icon educate-home icon-wrap"></span>
-                                   <span class="mini-click-non">Home</span>
-                                </a>
-                            <ul class="submenu-angle" aria-expanded="true">
-                                <li><a title="Dashboard v.1" href="index_mail.php"><span class="mini-sub-pro">User Master Registration Data Entry</span></a></li>
-                                
-                            </ul>
-                        </li>
-                         
-                             
-
-                       
-                         
-                       
-                        
-                    </ul>
-                </nav>
-            </div>
-        </nav>
-    </div>
-    <!-- End Left menu area -->
+    
     <!-- Start Welcome area -->
     <div class="all-content-wrapper">
         <div class="container-fluid">
@@ -246,7 +214,6 @@
                                            <td><?php echo $no["coulum7"]; ?> </td>
                                            <td><?php echo $no["coulum8"]; ?> </td>
                                            <td><?php echo $no["coulum9"]; ?> </td>
-
                                        </tr>
        
 
@@ -265,7 +232,4 @@
                 </div>
             </div>
         </div>
-
-
-
- <?php echo $no["data1"] ; ?>
+ 
