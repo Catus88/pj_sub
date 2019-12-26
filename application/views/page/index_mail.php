@@ -236,7 +236,18 @@
                                         <tbody>
                              
 
-                                       
+                                       <tr>
+                                           <td><?php echo $no["coulum1"]; ?> </td>
+                                           <td><?php echo $no["coulum2"]; ?> </td>
+                                           <td><?php echo $no["coulum3"]; ?> </td>
+                                           <td><?php echo $no["coulum4"]; ?> </td>
+                                           <td><?php echo $no["coulum5"]; ?> </td>
+                                           <td><?php echo $no["coulum6"]; ?> </td>
+                                           <td><?php echo $no["coulum7"]; ?> </td>
+                                           <td><?php echo $no["coulum8"]; ?> </td>
+                                           <td><?php echo $no["coulum9"]; ?> </td>
+
+                                       </tr>
        
 
 
