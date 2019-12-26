@@ -257,4 +257,4 @@
 
 
 
- <?php print_r($no) ; ?>
+ <?php echo $no["data1"] ; ?>
