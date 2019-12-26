@@ -236,7 +236,7 @@
                                         <tbody>
                              
 
-                                        <?php echo $tablevalue; ?>
+                                        <?php echo $tablevalue1; ?>
        
 
 
