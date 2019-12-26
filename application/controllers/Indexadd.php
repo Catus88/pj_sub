@@ -18,7 +18,7 @@ class Indexadd extends CI_Controller
 		$this->load->view("template/header");
 		#$this->load->view("page/index_add");
 		$this->load->view("page/form");
-		$this->load->view("template/footer");
+		#$this->load->view("template/footer");
 
 	}
 
